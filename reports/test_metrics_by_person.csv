@@ -1,0 +1,4 @@
+person_id,n,accuracy,balanced_accuracy,macro_f1
+DGD,12,1.0,1.0,1.0
+PHU,12,1.0,1.0,1.0
+QBAO,14,1.0,1.0,1.0

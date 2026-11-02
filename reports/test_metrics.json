@@ -1,0 +1,99 @@
+{
+  "metrics": {
+    "experiment": "new_features",
+    "config": {
+      "mode": "new",
+      "augment": false,
+      "hidden": 32
+    },
+    "single_view": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "fused_mean_prob": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "fused_log_prob": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "fused_accuracy_95ci_bootstrap_by_take": [
+      1.0,
+      1.0
+    ],
+    "single_member_fused_macro_f1": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "n_test_samples": 38,
+    "n_test_takes": 19,
+    "test_people": [
+      "DGD",
+      "PHU",
+      "QBAO"
+    ],
+    "cv_dev": {
+      "experiment": "new_features",
+      "single_macro_f1": "0.884 ± 0.000",
+      "fused_macro_f1": "0.917 ± 0.011",
+      "fused_accuracy": "0.916 ± 0.012",
+      "ensemble_fused_macro_f1": 0.905
+    },
+    "protocol": "test cố định 3 người; chọn cấu hình bằng 5-fold theo người x 2 trên dev; ensemble 10 seed train trên toàn bộ dev"
+  },
+  "classification_report": {
+    "Ngồi thẳng": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Cúi gập / gù lưng": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Gục xuống bàn": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Ngả người ra sau": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "Nghiêng / quay sang bên": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 8.0
+    },
+    "Giơ tay phát biểu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 38.0
+    }
+  }
+}
